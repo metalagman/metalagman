@@ -1,16 +1,32 @@
-## Hi there 👋
+# Alexey Samoylov (@metalagman)
 
-<!--
-**metalagman/metalagman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**I automate the annoying parts.**  
+Go tools, agent workflows, and infrastructure automation.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I’m building
+
+- **[norma](https://github.com/metalagman/norma)** — PDCA-inspired workflow orchestrator for agent-driven work
+- **[agent-skills](https://github.com/metalagman/agent-skills)** — reusable skills/workflows/resources for LLM agents
+- **[aida](https://github.com/metalagman/aida)** — oneshot runner for LLM-generated shell commands
+- **[ainvoke](https://github.com/metalagman/ainvoke)** — schema-driven runner for agent/LLM CLIs
+- **[home-ops](https://github.com/metalagman/home-ops)** — Kubernetes + Terraform/Terragrunt playground
+- **[tgbotspec](https://github.com/metalagman/tgbotspec)** — Telegram Bot API → OpenAPI 3.0 spec
+
+---
+
+## Focus
+
+- Backend engineering & platform architecture
+- Go, distributed systems, event-driven patterns
+- Kubernetes, Terraform/Terragrunt, CI/CD
+- Observability: logs/metrics/traces
+
+---
+
+## Links
+
+- Telegram: https://t.me/metalagman
+- LinkedIn: https://www.linkedin.com/in/alexey-samoylov-10469b39
+- Email: alexey.samoylov@gmail.com
