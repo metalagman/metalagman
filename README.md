@@ -33,4 +33,4 @@ Go tools, agent workflows, and infrastructure automation.
 
 - Telegram: https://t.me/metalagman
 - LinkedIn: https://www.linkedin.com/in/alexey-samoylov-10469b39
-- Email: alexey.samoylov@gmail.com
+- Email: alexey.samoylov at gmail.com
