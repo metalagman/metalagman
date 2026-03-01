@@ -18,6 +18,7 @@ Go tools, agent workflows, and infrastructure automation.
 | `home-ops` | [metalagman/home-ops](https://github.com/metalagman/home-ops) | Kubernetes + Terraform/Terragrunt playground |
 | `wsl-setup` | [metalagman/wsl-setup](https://github.com/metalagman/wsl-setup) | Reproducible WSL workstation setup and bootstrap automation |
 | `tgbotspec` | [metalagman/tgbotspec](https://github.com/metalagman/tgbotspec) | Telegram Bot API to OpenAPI 3.0 spec |
+| `client` | [tgbotkit/client](https://github.com/tgbotkit/client) | Telegram Bot API client library |
 
 ---
 
