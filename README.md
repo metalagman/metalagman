@@ -12,7 +12,7 @@ Go tools, agent workflows, and infrastructure automation.
 - aida (https://github.com/metalagman/aida) — oneshot runner for LLM-generated shell commands
 - ainvoke (https://github.com/metalagman/ainvoke) — schema-driven runner for agent/LLM CLIs
 - omnidist (https://github.com/metalagman/omnidist) — turn one Go project into cross-platform npm + uv distributions with prebuilt binaries (run via npx / uvx)
-- semverctl (https://github.com/metalagman/semverctl) — CLI for bumping and setting SemVer values in JSON/YAML files (available via Go, npx, and uvx)
+- semverctl (https://github.com/metalagman/semverctl) — CLI for bumping and setting SemVer values in JSON/YAML files, Git tags (available via Go, npx, and uvx)
 - home-ops (https://github.com/metalagman/home-ops) — Kubernetes + Terraform/Terragrunt playground
 - tgbotspec (https://github.com/metalagman/tgbotspec) — Telegram Bot API → OpenAPI 3.0 spec
 
