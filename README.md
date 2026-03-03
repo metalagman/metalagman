@@ -13,6 +13,7 @@ Go tools, agent workflows, and infrastructure automation.
 | [metalagman/agent-skills](https://github.com/metalagman/agent-skills) | Reusable skills/workflows/resources for LLM agents |
 | [metalagman/aida](https://github.com/metalagman/aida) | One-shot runner for LLM-generated shell commands |
 | [metalagman/ainvoke](https://github.com/metalagman/ainvoke) | Schema-driven runner for agent/LLM CLIs |
+| [metalagman/ddgo](https://github.com/metalagman/ddgo) | Go port of Matomo Device Detector for parsing user-agent and Client Hints metadata |
 | [metalagman/omnidist](https://github.com/metalagman/omnidist) | Turn one Go project into cross-platform npm + uv distributions with prebuilt binaries (run via npx / uvx) |
 | [metalagman/semverctl](https://github.com/metalagman/semverctl) | CLI for bumping and setting SemVer values in JSON/YAML files, Git tags (available via Go, npx, and uvx) |
 | [metalagman/home-ops](https://github.com/metalagman/home-ops) | Kubernetes + Terraform/Terragrunt playground |
