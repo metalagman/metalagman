@@ -7,21 +7,43 @@ Go tools, agent workflows, and infrastructure automation.
 
 ## What I’m building
 
-| Repository | Description |
+### Agent systems and workflows
+
+| Project | Description |
 | --- | --- |
-| [metalagman/norma](https://github.com/metalagman/norma) | PDCA-inspired workflow orchestrator for agent-driven work |
+| [normahq/norma](https://github.com/normahq/norma) | PDCA-inspired workflow orchestrator for agent-driven work |
 | [metalagman/agent-skills](https://github.com/metalagman/agent-skills) | Reusable skills/workflows/resources for LLM agents |
 | [metalagman/aida](https://github.com/metalagman/aida) | One-shot runner for LLM-generated shell commands |
 | [metalagman/ainvoke](https://github.com/metalagman/ainvoke) | Schema-driven runner for agent/LLM CLIs |
-| [metalagman/ddgo](https://github.com/metalagman/ddgo) | Go port of Matomo Device Detector for parsing user-agent and Client Hints metadata |
-| [metalagman/omnidist](https://github.com/metalagman/omnidist) | Turn one Go project into cross-platform npm + uv distributions with prebuilt binaries (run via npx / uvx) |
-| [metalagman/semverctl](https://github.com/metalagman/semverctl) | CLI for bumping and setting SemVer values in JSON/YAML files, Git tags (available via Go, npx, and uvx) |
+
+### Infrastructure and operations
+
+| Project | Description |
+| --- | --- |
+| [metalagman/ecr-auth-operator](https://github.com/metalagman/ecr-auth-operator) | Kubernetes operator that automates Amazon ECR authentication for pull credentials |
 | [metalagman/home-ops](https://github.com/metalagman/home-ops) | Kubernetes + Terraform/Terragrunt playground |
 | [metalagman/wsl-setup](https://github.com/metalagman/wsl-setup) | Reproducible WSL workstation setup and bootstrap automation |
+
+### Developer tools and libraries
+
+| Project | Description |
+| --- | --- |
+| [metalagman/omnidist](https://github.com/metalagman/omnidist) | Turn one Go project into cross-platform npm + uv distributions with prebuilt binaries (run via npx / uvx) |
+| [metalagman/semverctl](https://github.com/metalagman/semverctl) | CLI for bumping and setting SemVer values in JSON/YAML files, Git tags (available via Go, npx, and uvx) |
+| [metalagman/ddgo](https://github.com/metalagman/ddgo) | Go port of Matomo Device Detector for parsing user-agent and Client Hints metadata |
 | [metalagman/tgbotspec](https://github.com/metalagman/tgbotspec) | Telegram Bot API to OpenAPI 3.0 spec |
 | [tgbotkit/client](https://github.com/tgbotkit/client) | Telegram Bot API client library |
 
 ---
+
+## CLI tools
+
+- [@normahq/mcp-dump](https://www.npmjs.com/package/@normahq/mcp-dump) — inspect stdio MCP servers and print initialize/capability data
+- [@normahq/acp-dump](https://www.npmjs.com/package/@normahq/acp-dump) — inspect ACP-compatible agent CLIs and print capability metadata
+- [@normahq/acp-repl](https://www.npmjs.com/package/@normahq/acp-repl) — run an interactive ACP REPL against agent runtimes
+- [@normahq/codex-acp-bridge](https://www.npmjs.com/package/@normahq/codex-acp-bridge) — bridge Codex MCP to ACP for agent interoperability
+- [@metalagman/ainvoke](https://www.npmjs.com/package/@metalagman/ainvoke) — schema-driven agent/LLM CLI runner
+- [@metalagman/semverctl](https://www.npmjs.com/package/@metalagman/semverctl) — SemVer CLI for JSON/YAML files and Git tags
 
 ## Focus
 
