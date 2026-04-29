@@ -12,13 +12,14 @@ Go tools, agent workflows, and infrastructure automation.
 | Project | Description |
 | --- | --- |
 | [normahq/norma](https://github.com/normahq/norma) | PDCA-inspired workflow orchestrator for agent-driven work |
+| [normahq/relay](https://github.com/normahq/relay) | Telegram-first control plane for long-running CLI agents |
+| [normahq/codex-acp-bridge](https://github.com/normahq/codex-acp-bridge) | Exposes Codex App Server to ACP |
 | [metalagman/agent-skills](https://github.com/metalagman/agent-skills) | Reusable skills/workflows/resources for LLM agents |
 | [metalagman/aida](https://github.com/metalagman/aida) | One-shot runner for LLM-generated shell commands |
 | [metalagman/ainvoke](https://github.com/metalagman/ainvoke) | Schema-driven runner for agent/LLM CLIs |
 | [mcp-dump](https://www.npmjs.com/package/@normahq/mcp-dump) | CLI inspector for stdio MCP servers (initialize/capability data) |
 | [acp-dump](https://www.npmjs.com/package/@normahq/acp-dump) | CLI inspector for ACP-compatible agent runtimes and capability metadata |
 | [acp-repl](https://www.npmjs.com/package/@normahq/acp-repl) | Interactive ACP REPL for agent runtime exploration and testing |
-| [codex-acp-bridge](https://www.npmjs.com/package/@normahq/codex-acp-bridge) | Bridge that exposes Codex MCP as ACP for agent interoperability |
 
 ### Infrastructure and operations
 
