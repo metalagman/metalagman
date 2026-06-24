@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alexey Samoylov (@metalagman)</title>
+  <meta name="description" content="Go tools, agent workflows, and infrastructure automation by Alexey Samoylov.">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NV2JVKRD5J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-NV2JVKRD5J');
+  </script>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f8f7f4;
+      --text: #1e2428;
+      --muted: #56616a;
+      --line: #d8d5ce;
+      --link: #075985;
+      --panel: #ffffff;
+      --accent: #2f5d50;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111417;
+        --text: #ecf0f1;
+        --muted: #a7b0b7;
+        --line: #333b42;
+        --link: #7dd3fc;
+        --panel: #171b1f;
+        --accent: #8fc7b6;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(1080px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 4rem);
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin-top: 44px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      margin-top: 28px;
+      color: var(--accent);
+      font-size: 1.05rem;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin: 12px 0 0;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--link);
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.18em;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 16px;
+      border-collapse: collapse;
+      background: var(--panel);
+      border: 1px solid var(--line);
+    }
+
+    th,
+    td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    ul {
+      margin: 14px 0 0;
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 6px;
+    }
+
+    .intro {
+      max-width: 760px;
+      margin-top: 12px;
+      font-size: 1.2rem;
+    }
+
+    .links {
+      display: grid;
+      gap: 6px;
+      margin-top: 14px;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    @media (max-width: 720px) {
+      main {
+        width: min(100% - 24px, 1080px);
+        padding-top: 32px;
+      }
+
+      table,
+      thead,
+      tbody,
+      tr,
+      th,
+      td {
+        display: block;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tr {
+        border-bottom: 1px solid var(--line);
+      }
+
+      tr:last-child {
+        border-bottom: 0;
+      }
+
+      td {
+        border-bottom: 0;
+      }
+
+      td:first-child {
+        padding-bottom: 0;
+        font-weight: 700;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Alexey Samoylov (@metalagman)</h1>
+    <p class="intro"><strong>I automate the annoying parts.</strong><br>Go tools, agent workflows, and infrastructure automation.</p>
+
+    <h2>What I'm building</h2>
+
+    <h3>Agent systems and workflows</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><a href="https://github.com/normahq/norma">normahq/norma</a></td><td>PDCA-inspired workflow orchestrator for agent-driven work</td></tr>
+        <tr><td><a href="https://github.com/normahq/relay">normahq/relay</a></td><td>Telegram-first control plane for long-running CLI agents</td></tr>
+        <tr><td><a href="https://github.com/normahq/balda">normahq/balda</a></td><td>Persistent AI worker for teams, chat intake, and autonomous task execution</td></tr>
+        <tr><td><a href="https://github.com/normahq/codex-acp-bridge">normahq/codex-acp-bridge</a></td><td>Exposes Codex App Server to ACP</td></tr>
+        <tr><td><a href="https://github.com/diffpal/diffpal">diffpal/diffpal</a></td><td>Open-source, provider-agnostic AI review for pull requests</td></tr>
+        <tr><td><a href="https://github.com/fastronome/azure-devops-ai-code-review">fastronome/azure-devops-ai-code-review</a></td><td>Azure OpenAI-powered pull request review extension for Azure DevOps</td></tr>
+        <tr><td><a href="https://github.com/fastronome/azure-devops-copilot-code-review">fastronome/azure-devops-copilot-code-review</a></td><td>GitHub Copilot-powered pull request reviews for Azure DevOps repos</td></tr>
+        <tr><td><a href="https://github.com/metalagman/agent-skills">metalagman/agent-skills</a></td><td>Reusable skills/workflows/resources for LLM agents</td></tr>
+        <tr><td><a href="https://github.com/metalagman/aida">metalagman/aida</a></td><td>One-shot runner for LLM-generated shell commands</td></tr>
+        <tr><td><a href="https://github.com/metalagman/ainvoke">metalagman/ainvoke</a></td><td>Schema-driven runner for agent/LLM CLIs</td></tr>
+        <tr><td><a href="https://www.npmjs.com/package/@normahq/mcp-dump">mcp-dump</a></td><td>CLI inspector for stdio MCP servers (initialize/capability data)</td></tr>
+        <tr><td><a href="https://www.npmjs.com/package/@normahq/acp-dump">acp-dump</a></td><td>CLI inspector for ACP-compatible agent runtimes and capability metadata</td></tr>
+        <tr><td><a href="https://www.npmjs.com/package/@normahq/acp-repl">acp-repl</a></td><td>Interactive ACP REPL for agent runtime exploration and testing</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Infrastructure and operations</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><a href="https://github.com/metalagman/ecr-auth-operator">metalagman/ecr-auth-operator</a></td><td>Kubernetes operator that automates Amazon ECR authentication for pull credentials</td></tr>
+        <tr><td><a href="https://github.com/metalagman/home-ops">metalagman/home-ops</a></td><td>Kubernetes + Terraform/Terragrunt playground</td></tr>
+        <tr><td><a href="https://github.com/metalagman/wsl-setup">metalagman/wsl-setup</a></td><td>Reproducible WSL workstation setup and bootstrap automation</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Developer tools and libraries</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><a href="https://github.com/metalagman/omnidist">metalagman/omnidist</a></td><td>Turn one Go project into cross-platform npm + uv distributions with prebuilt binaries (run via npx / uvx)</td></tr>
+        <tr><td><a href="https://github.com/metalagman/semverctl">metalagman/semverctl</a></td><td>CLI for bumping and setting SemVer values in JSON/YAML files, Git tags (available via Go, npx, and uvx)</td></tr>
+        <tr><td><a href="https://github.com/metalagman/appkit">metalagman/appkit</a></td><td>Opinionated Go packages for lifecycle, logging, versioning, and worker orchestration</td></tr>
+        <tr><td><a href="https://github.com/metalagman/ddgo">metalagman/ddgo</a></td><td>Go port of Matomo Device Detector for parsing user-agent and Client Hints metadata</td></tr>
+        <tr><td><a href="https://github.com/metalagman/tgbotspec">metalagman/tgbotspec</a></td><td>Telegram Bot API to OpenAPI 3.0 spec</td></tr>
+        <tr><td><a href="https://github.com/tgbotkit/client">tgbotkit/client</a></td><td>Telegram Bot API client library</td></tr>
+        <tr><td><a href="https://github.com/tgbotkit/runtime">tgbotkit/runtime</a></td><td>Telegram Bot runtime framework</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Focus</h2>
+    <ul>
+      <li>Backend engineering &amp; platform architecture</li>
+      <li>Go, distributed systems, event-driven patterns</li>
+      <li>Kubernetes, Terraform/Terragrunt, CI/CD</li>
+      <li>Observability: logs/metrics/traces</li>
+    </ul>
+
+    <h2>Links</h2>
+    <ul class="links">
+      <li>Website: <a href="https://metalagman.github.io">https://metalagman.github.io</a></li>
+      <li>Telegram: <a href="https://t.me/metalagman">https://t.me/metalagman</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/alexey-samoylov-10469b39">https://www.linkedin.com/in/alexey-samoylov-10469b39</a></li>
+      <li>Email: alexey.samoylov at gmail.com</li>
+    </ul>
+  </main>
+</body>
+</html>

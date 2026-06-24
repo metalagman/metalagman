@@ -1,0 +1,2 @@
+{"id":"int-4a81923b4875fb09cfd435b300b25a33","kind":"field_change","created_at":"2026-06-24T11:07:09.428827111Z","actor":"Alexey Samoylov","issue_id":"metalagman-hpm","extra":{"field":"status","new_value":"in_progress","old_value":"open"}}
+{"id":"int-9b62b34b9db72edac16a6364dbc9c742","kind":"field_change","created_at":"2026-06-24T11:08:37.714157023Z","actor":"Alexey Samoylov","issue_id":"metalagman-hpm","extra":{"field":"status","new_value":"closed","old_value":"in_progress","reason":"Added Google Analytics measurement tag G-NV2JVKRD5J to index.html."}}
